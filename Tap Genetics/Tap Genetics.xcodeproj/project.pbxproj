@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077DCAE231CE45CF4324F1E3 /* Pods_Tap_Genetics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530F320D9CEAD1816A710164 /* Pods_Tap_Genetics.framework */; };
+		F42C523C1FCB35F8001264E3 /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C523B1FCB35F8001264E3 /* MatchViewController.swift */; };
+		F46CD9BB1FCB0F9400871875 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = F46CD9BA1FCB0F9300871875 /* giphy.gif */; };
+		F4D583111FCA20850058C44D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D583101FCA20850058C44D /* AppDelegate.swift */; };
+		F4D583131FCA20850058C44D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D583121FCA20850058C44D /* ViewController.swift */; };
+		F4D583161FCA20850058C44D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D583141FCA20850058C44D /* Main.storyboard */; };
+		F4D583181FCA20850058C44D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D583171FCA20850058C44D /* Assets.xcassets */; };
+		F4D5831B1FCA20850058C44D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D583191FCA20850058C44D /* LaunchScreen.storyboard */; };
+		F4D583231FCA23360058C44D /* GeneticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D583221FCA23360058C44D /* GeneticsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		530F320D9CEAD1816A710164 /* Pods_Tap_Genetics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tap_Genetics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABA1E50262B9802C9B90266 /* Pods-Tap Genetics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tap Genetics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tap Genetics/Pods-Tap Genetics.debug.xcconfig"; sourceTree = "<group>"; };
+		DFF4BA29591FAF3422A64C4E /* Pods-Tap Genetics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tap Genetics.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tap Genetics/Pods-Tap Genetics.release.xcconfig"; sourceTree = "<group>"; };
+		F42C523B1FCB35F8001264E3 /* MatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
+		F46CD9BA1FCB0F9300871875 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphy.gif; sourceTree = "<group>"; };
+		F4D5830D1FCA20850058C44D /* Tap Genetics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap Genetics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D583101FCA20850058C44D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4D583121FCA20850058C44D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4D583151FCA20850058C44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4D583171FCA20850058C44D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4D5831A1FCA20850058C44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4D5831C1FCA20850058C44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D583221FCA23360058C44D /* GeneticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4D5830A1FCA20840058C44D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077DCAE231CE45CF4324F1E3 /* Pods_Tap_Genetics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C30A943110D4286059A3DB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ABA1E50262B9802C9B90266 /* Pods-Tap Genetics.debug.xcconfig */,
+				DFF4BA29591FAF3422A64C4E /* Pods-Tap Genetics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4D583041FCA20840058C44D = {
+			isa = PBXGroup;
+			children = (
+				F4D5830F1FCA20850058C44D /* Tap Genetics */,
+				F4D5830E1FCA20850058C44D /* Products */,
+				4C30A943110D4286059A3DB8 /* Pods */,
+				F739BD17B7E7CC29287D8B7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4D5830E1FCA20850058C44D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4D5830D1FCA20850058C44D /* Tap Genetics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4D5830F1FCA20850058C44D /* Tap Genetics */ = {
+			isa = PBXGroup;
+			children = (
+				F4D583101FCA20850058C44D /* AppDelegate.swift */,
+				F4D583121FCA20850058C44D /* ViewController.swift */,
+				F4D583221FCA23360058C44D /* GeneticsViewController.swift */,
+				F42C523B1FCB35F8001264E3 /* MatchViewController.swift */,
+				F4D583141FCA20850058C44D /* Main.storyboard */,
+				F4D583171FCA20850058C44D /* Assets.xcassets */,
+				F46CD9BA1FCB0F9300871875 /* giphy.gif */,
+				F4D583191FCA20850058C44D /* LaunchScreen.storyboard */,
+				F4D5831C1FCA20850058C44D /* Info.plist */,
+			);
+			path = "Tap Genetics";
+			sourceTree = "<group>";
+		};
+		F739BD17B7E7CC29287D8B7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				530F320D9CEAD1816A710164 /* Pods_Tap_Genetics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4D5830C1FCA20840058C44D /* Tap Genetics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D5831F1FCA20850058C44D /* Build configuration list for PBXNativeTarget "Tap Genetics" */;
+			buildPhases = (
+				9A1DB2DB3D48E341A61073D8 /* [CP] Check Pods Manifest.lock */,
+				F4D583091FCA20840058C44D /* Sources */,
+				F4D5830A1FCA20840058C44D /* Frameworks */,
+				F4D5830B1FCA20840058C44D /* Resources */,
+				8B58F7DE669D908CAAD00A18 /* [CP] Embed Pods Frameworks */,
+				A61B6B79F389C91907B5F7D4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tap Genetics";
+			productName = "Tap Genetics";
+			productReference = F4D5830D1FCA20850058C44D /* Tap Genetics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4D583051FCA20840058C44D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "David Frankel";
+				TargetAttributes = {
+					F4D5830C1FCA20840058C44D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F4D583081FCA20840058C44D /* Build configuration list for PBXProject "Tap Genetics" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4D583041FCA20840058C44D;
+			productRefGroup = F4D5830E1FCA20850058C44D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4D5830C1FCA20840058C44D /* Tap Genetics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4D5830B1FCA20840058C44D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D5831B1FCA20850058C44D /* LaunchScreen.storyboard in Resources */,
+				F4D583181FCA20850058C44D /* Assets.xcassets in Resources */,
+				F46CD9BB1FCB0F9400871875 /* giphy.gif in Resources */,
+				F4D583161FCA20850058C44D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B58F7DE669D908CAAD00A18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tap Genetics/Pods-Tap Genetics-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tap Genetics/Pods-Tap Genetics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A1DB2DB3D48E341A61073D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tap Genetics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A61B6B79F389C91907B5F7D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tap Genetics/Pods-Tap Genetics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4D583091FCA20840058C44D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42C523C1FCB35F8001264E3 /* MatchViewController.swift in Sources */,
+				F4D583131FCA20850058C44D /* ViewController.swift in Sources */,
+				F4D583111FCA20850058C44D /* AppDelegate.swift in Sources */,
+				F4D583231FCA23360058C44D /* GeneticsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4D583141FCA20850058C44D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D583151FCA20850058C44D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4D583191FCA20850058C44D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D5831A1FCA20850058C44D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4D5831D1FCA20850058C44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4D5831E1FCA20850058C44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4D583201FCA20850058C44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ABA1E50262B9802C9B90266 /* Pods-Tap Genetics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GVQWT4S7R;
+				INFOPLIST_FILE = "Tap Genetics/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DavidFrankel.Tap-Genetics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4D583211FCA20850058C44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFF4BA29591FAF3422A64C4E /* Pods-Tap Genetics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GVQWT4S7R;
+				INFOPLIST_FILE = "Tap Genetics/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DavidFrankel.Tap-Genetics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4D583081FCA20840058C44D /* Build configuration list for PBXProject "Tap Genetics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D5831D1FCA20850058C44D /* Debug */,
+				F4D5831E1FCA20850058C44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4D5831F1FCA20850058C44D /* Build configuration list for PBXNativeTarget "Tap Genetics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D583201FCA20850058C44D /* Debug */,
+				F4D583211FCA20850058C44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4D583051FCA20840058C44D /* Project object */;
+}
